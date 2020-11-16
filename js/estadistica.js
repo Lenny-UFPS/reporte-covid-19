@@ -19,7 +19,7 @@ function addOptions(mySet, select){  // Método para insertar dinámicamente los
 }
 
 function crearRF1(){
-    var url = "../resources/datos.json";
+    var url = "https://raw.githubusercontent.com/Lenny-UFPS/reporte-covid-19/main/resources/datos.json";
     var mySet = new Set();
     var data = new google.visualization.DataTable();
     var data2 = new google.visualization.DataTable();
@@ -75,7 +75,7 @@ function crearRF1(){
 }
 
 function crearRF2(){
-    var url = "../resources/datos.json";
+    var url = "https://raw.githubusercontent.com/Lenny-UFPS/reporte-covid-19/main/resources/datos.json";
     var mySet = new Set();
     var data = new google.visualization.DataTable();
     var data2 = new google.visualization.DataTable();
@@ -134,7 +134,7 @@ function crearRF2(){
 }
 
 function crearRF3(){
-    var url = "../resources/datos.json";
+    var url = "https://raw.githubusercontent.com/Lenny-UFPS/reporte-covid-19/main/resources/datos.json";
     var mySet = new Set();
     var counters;
     var data = new google.visualization.DataTable();
