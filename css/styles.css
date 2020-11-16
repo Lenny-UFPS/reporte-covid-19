@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+
+div a.link:hover{
+    color: #FF725E;
+}
+
+/* Tables */
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(83, 133, 180);
+    border-color: rgb(151, 150, 168) !important;
+    color: white;
+  }
+  
+  .oddTableRow {
+      background-color:rgb(232, 246, 247);
+  }
+  
+  .tableRow { background-color:rgb(246, 253, 253); } 
+  
+  tr:hover {background-color: rgba(233, 235, 154, 0.76) !important;}
+  .selectedTableRow {
+      background-color: rgba(141, 186, 238, 0.76) !important;
+  }
